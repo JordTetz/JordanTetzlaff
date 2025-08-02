@@ -1,0 +1,26 @@
+.post-header {
+    margin-bottom: 30px;
+}
+
+.post-meta {
+    font-size: 14px;
+    color: #828282;
+}
+
+.post-content {
+    margin-bottom: 30px;
+}
+
+em {
+    font-style: italic;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.caption{
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
