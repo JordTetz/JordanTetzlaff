@@ -45,8 +45,10 @@
                     <h2> Methodology </h2>
                     <p> The goal of this project is to measure and visualize rivalries between NHL teams. There are many ways to quantify a rivalvry, but for this simple analysis, I will measure the strength of the rivalry by the number of on-ice fights all-time. </p>
                     <p> The website <a href="https://www.hockeyfights.com/" target="_blank">Hockey Fights</a> has easily accessible, but sparse and sometimes inconsistent data on inter-team fight totals for every team. This will be the dataset used, recognizing that there are some major flaws. </p>
-                    <p><img  src="../assets/hockey-fights.png" alt="screenshot of the hockey fights page for the Toronto Maple Leafs"></p>
-                    <p class="caption"><em>This is the page for the Toronto Maple Leafs, showing the top 10 leaderboard of teams with the most fights. </em></p>
+                    <img  src="../assets/hockey-fights.png" alt="screenshot of the hockey fights page for the Toronto Maple Leafs">
+                    <p class="caption">
+                        <em>This is the page for the Toronto Maple Leafs, showing the top 10 leaderboard of teams with the most fights. </em>
+                    </p>
                     <p> For each team in the league, an edge will be added between them and every team that appears in their leaderboard, along with the number of fights indicated. This will be collected into a single csv file, where every row becomes an edge between two teams. </p>
 
                     <p>The software I'm using for the visualization is <a href="https://gephi.org/" target="_blank">Gephi</a>, an easy to learn software for network visualization. I simply import my csv file and it will create a network for me, complete with several algorithms for laying out the nodes, and customizable appearances. </p>
